@@ -1,0 +1,84 @@
+.buttons2 {
+    margin-top: 150px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+    position: absolute;
+
+}
+
+.hiddenButton {
+    background-color: white;
+    size: 5px;
+    border: unset;
+}
+
+.linkButtons {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.numbers {
+    margin-top: 100px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: inline-block;
+    grid-template-columns: 5px 5px 5px;
+    grid-template-rows: 5px 5px 5px;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.mainButtons {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.extraButtons {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+.theThreeWhiseButtons {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+
+.buttons1 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.text_farven {
+    color: silver;
+    background-color: green;
+}
+
+h1 {
+    margin-top: 150px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+p {
+    display: inline;
+    padding: auto;
+    font-size: 20;
+    font: bolder;
+}

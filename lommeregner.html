@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <script src="lommeregner.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <div id="numbers" class="numbers">
+        <p id="firstnum">0</p>
+        <p> </p>
+        <p id="secondnum">0</p>
+        <p>=</p>
+        <p id="result">result</p>
+    </div>
+    <div class="extraButtons">
+        <!--denne knap reseter det til hvad det var før-->
+        <button class="theThreeWhiseButtons" onclick="sletAlt()">delete all</button>
+        <!--denne knap skifter farven på texten og bagrunden-->
+        <button class="theThreeWhiseButtons" onclick="skiftTextFarveb()">change colour</button>
+    </div>
+
+    <div id="numberButtons" class="buttons1">
+        <button class="mainButtons" onclick="plus()">+</button>
+        <button class="mainButtons" onclick="minus()">-</button>
+        <button class="mainButtons" onclick="gange()">*</button>
+        <button class="mainButtons" onclick="divider()">/</button>
+        <button class="mainButtons" onclick="ligmed()">=</button>
+        <button class="mainButtons" onclick="addtal(this)" value="1">1</button>
+        <button class="mainButtons" onclick="addtal(this)" value="2">2</button>
+        <button class="mainButtons" onclick="addtal(this)" value="3">3</button>
+        <button class="mainButtons" onclick="addtal(this)" value="4">4</button>
+        <button class="mainButtons" onclick="addtal(this)" value="5">5</button>
+        <button class="mainButtons" onclick="addtal(this)" value="6">6</button>
+        <button class="mainButtons" onclick="addtal(this)" value="7">7</button>
+        <button class="mainButtons" onclick="addtal(this)" value="8">8</button>
+        <button class="mainButtons" onclick="addtal(this)" value="9">9</button>
+        <button class="mainButtons" onclick="addtal(this)" value="0">0</button>
+    </div>
+        <button class="mainButtons" onclick="goBack()">go back</button>
+</body>
+
+</html>
